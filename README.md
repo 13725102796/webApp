@@ -1,21 +1,31 @@
 # app
 
-> A Vue.js project
+> Vue 纯净版架构
+## Introduction
+``` bash
+
+#Introduction
+    这是一个vue纯净版的一个项目架构,内部配置:
+    vuex, 路由模块化, 跳转动画, sass
+    插件有 toast scroll infinite
+    封装http请求(表单请求,数据请求)
+    rem弹性布局
+``` 
 
 ## Build Setup
 
 ``` bash
+# 安装
+git clone git@github.com:13725102796/webApp.git
+
 # install dependencies
-npm install
+npm install || yarn install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 启动 localhost:8080
+npm start || yarn start
 
-# build for production with minification
-npm run build
+# 打包
+npm run build || yarn build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
