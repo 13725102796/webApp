@@ -6,10 +6,10 @@
 
 #Introduction
     这是一个vue纯净版的一个项目架构,内部配置:
-    vuex, 路由模块化, 跳转动画, sass
-    插件有 toast scroll infinite
-    封装http请求(表单请求,数据请求)
-    rem弹性布局
+      vuex, 路由模块化, 跳转动画, sass
+      插件有 toast scroll infinite validator
+      封装http请求(表单请求,数据请求)
+      rem弹性布局
 ``` 
 
 ## Build Setup

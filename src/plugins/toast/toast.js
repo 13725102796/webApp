@@ -3,7 +3,7 @@ import Toast from './toast.vue'
 export default {
   install(Vue,options={}) {
     let toast = null
-    Vue.prototype.$toast = (msg,ms = 2000) => {
+    Vue.prototype.$toast = (msg,mask = true,ms = 2000) => {
       if(!toast) {
         const com = Vue.extend(Toast)
         toast = new com
@@ -13,7 +13,7 @@ export default {
         }
       } 
       toast.show = true      
-      toast.delayed(msg,ms)
+      toast.delayed(msg,mask,ms)
             
     }
   }
